@@ -1,0 +1,24 @@
+module RegisterFile (input [7:0] wd3, input [2:0] wa3, // Write data & Write adress 
+							 input we3, CLK,                  // Write enable & Clock
+							 input [2:0] ra1, ra2,            // Register Adress
+							 output [7:0] rd1, rd2           // Register Data
+							 );           
+							 
+	wire [7:0] decod_out;
+	wire [63:0] reg_out;
+							 
+	decoder_octo (.data_in(wa3), .out_port(decod_out));
+
+	register rg1 (.d_in(wd3), .d_out(reg_out[7:0]), .enable(we3 & decod_out[0]), .clk(CLK));
+	register rg2 (.d_in(wd3), .d_out(reg_out[15:8]), .enable(we3 & decod_out[1]), .clk(CLK));
+	register rg3 (.d_in(wd3), .d_out(reg_out[23:16]), .enable(we3 & decod_out[2]), .clk(CLK));
+	register rg4 (.d_in(wd3), .d_out(reg_out[31:24]), .enable(we3 & decod_out[3]), .clk(CLK));
+	register rg5 (.d_in(wd3), .d_out(reg_out[39:32]), .enable(we3 & decod_out[4]), .clk(CLK));
+	register rg6 (.d_in(wd3), .d_out(reg_out[47:40]), .enable(we3 & decod_out[5]), .clk(CLK));
+	register rg7 (.d_in(wd3), .d_out(reg_out[55:48]), .enable(we3 & decod_out[6]), .clk(CLK));
+	register rg8 (.d_in(wd3), .d_out(reg_out[63:56]), .enable(we3 & decod_out[7]), .clk(CLK));
+	
+	demux8_8b demux1 (.data_in(reg_out), .sel(ra1), .data_out(rd1));
+	demux8_8b demux2 (.data_in(reg_out), .sel(ra2), .data_out(rd2));
+							 
+endmodule

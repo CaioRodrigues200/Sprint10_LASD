@@ -1,0 +1,261 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -10.692
+TNS   : -398.107
+
+Type  : Slow Model Setup 'frequencyDivider:fd1|clock1'
+Slack : -10.078
+TNS   : -590.464
+
+Type  : Slow Model Setup 'ControlUnit:ctrlUnit|ULAControl[0]'
+Slack : -7.598
+TNS   : -58.519
+
+Type  : Slow Model Setup 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -5.061
+TNS   : -73.673
+
+Type  : Slow Model Setup 'frequencyDivider:fd2|clock1'
+Slack : -4.678
+TNS   : -33.938
+
+Type  : Slow Model Setup 'EthernetMod:PacketGen|current_state.SENDING'
+Slack : -4.401
+TNS   : -40.129
+
+Type  : Slow Model Setup 'EthernetMod:PacketRcv|current_state.IDLE'
+Slack : -4.359
+TNS   : -22.110
+
+Type  : Slow Model Setup 'EthernetMod:PacketGen|current_state.IDLE'
+Slack : -3.726
+TNS   : -14.548
+
+Type  : Slow Model Setup 'EthernetMod:PacketRcv|buffer[0]'
+Slack : -3.334
+TNS   : -22.965
+
+Type  : Slow Model Setup 'EthernetMod:PacketGen|dataSend[0]'
+Slack : -1.815
+TNS   : -6.148
+
+Type  : Slow Model Hold 'EthernetMod:PacketGen|dataSend[0]'
+Slack : -4.971
+TNS   : -29.204
+
+Type  : Slow Model Hold 'EthernetMod:PacketRcv|buffer[0]'
+Slack : -4.140
+TNS   : -24.866
+
+Type  : Slow Model Hold 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -3.408
+TNS   : -49.950
+
+Type  : Slow Model Hold 'EthernetMod:PacketGen|current_state.SENDING'
+Slack : -3.032
+TNS   : -14.487
+
+Type  : Slow Model Hold 'ControlUnit:ctrlUnit|ULAControl[0]'
+Slack : -2.947
+TNS   : -20.931
+
+Type  : Slow Model Hold 'EthernetMod:PacketGen|current_state.IDLE'
+Slack : -1.076
+TNS   : -2.623
+
+Type  : Slow Model Hold 'EthernetMod:PacketRcv|current_state.IDLE'
+Slack : -0.616
+TNS   : -2.822
+
+Type  : Slow Model Hold 'frequencyDivider:fd2|clock1'
+Slack : -0.459
+TNS   : -0.611
+
+Type  : Slow Model Hold 'frequencyDivider:fd1|clock1'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -5.287
+TNS   : -5.287
+
+Type  : Slow Model Removal 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -1.494
+TNS   : -1.494
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.000
+TNS   : -274.684
+
+Type  : Slow Model Minimum Pulse Width 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.838
+TNS   : -42.756
+
+Type  : Slow Model Minimum Pulse Width 'frequencyDivider:fd1|clock1'
+Slack : -0.500
+TNS   : -73.000
+
+Type  : Slow Model Minimum Pulse Width 'frequencyDivider:fd2|clock1'
+Slack : -0.500
+TNS   : -11.000
+
+Type  : Slow Model Minimum Pulse Width 'ControlUnit:ctrlUnit|ULAControl[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'EthernetMod:PacketGen|current_state.IDLE'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'EthernetMod:PacketGen|current_state.SENDING'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'EthernetMod:PacketGen|dataSend[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'EthernetMod:PacketRcv|buffer[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'EthernetMod:PacketRcv|current_state.IDLE'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -4.565
+TNS   : -122.289
+
+Type  : Fast Model Setup 'frequencyDivider:fd1|clock1'
+Slack : -4.342
+TNS   : -258.409
+
+Type  : Fast Model Setup 'ControlUnit:ctrlUnit|ULAControl[0]'
+Slack : -3.339
+TNS   : -25.522
+
+Type  : Fast Model Setup 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -2.293
+TNS   : -21.316
+
+Type  : Fast Model Setup 'EthernetMod:PacketGen|current_state.SENDING'
+Slack : -1.983
+TNS   : -16.136
+
+Type  : Fast Model Setup 'frequencyDivider:fd2|clock1'
+Slack : -1.965
+TNS   : -12.046
+
+Type  : Fast Model Setup 'EthernetMod:PacketRcv|current_state.IDLE'
+Slack : -1.659
+TNS   : -5.501
+
+Type  : Fast Model Setup 'EthernetMod:PacketGen|current_state.IDLE'
+Slack : -1.399
+TNS   : -3.700
+
+Type  : Fast Model Setup 'EthernetMod:PacketRcv|buffer[0]'
+Slack : -0.841
+TNS   : -4.975
+
+Type  : Fast Model Setup 'EthernetMod:PacketGen|dataSend[0]'
+Slack : -0.208
+TNS   : -0.208
+
+Type  : Fast Model Hold 'EthernetMod:PacketGen|dataSend[0]'
+Slack : -2.503
+TNS   : -13.247
+
+Type  : Fast Model Hold 'EthernetMod:PacketRcv|buffer[0]'
+Slack : -2.142
+TNS   : -15.272
+
+Type  : Fast Model Hold 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -1.815
+TNS   : -29.533
+
+Type  : Fast Model Hold 'ControlUnit:ctrlUnit|ULAControl[0]'
+Slack : -1.717
+TNS   : -12.453
+
+Type  : Fast Model Hold 'EthernetMod:PacketGen|current_state.SENDING'
+Slack : -1.678
+TNS   : -7.608
+
+Type  : Fast Model Hold 'EthernetMod:PacketGen|current_state.IDLE'
+Slack : -0.704
+TNS   : -1.561
+
+Type  : Fast Model Hold 'frequencyDivider:fd2|clock1'
+Slack : -0.686
+TNS   : -1.223
+
+Type  : Fast Model Hold 'EthernetMod:PacketRcv|current_state.IDLE'
+Slack : -0.626
+TNS   : -1.936
+
+Type  : Fast Model Hold 'frequencyDivider:fd1|clock1'
+Slack : -0.435
+TNS   : -3.307
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -2.341
+TNS   : -2.341
+
+Type  : Fast Model Removal 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.626
+TNS   : -0.626
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.000
+TNS   : -274.684
+
+Type  : Fast Model Minimum Pulse Width 'frequencyDivider:fd1|clock1'
+Slack : -0.500
+TNS   : -73.000
+
+Type  : Fast Model Minimum Pulse Width 'frequencyDivider:fd2|clock1'
+Slack : -0.500
+TNS   : -11.000
+
+Type  : Fast Model Minimum Pulse Width 'RomInstMem:InstMem|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.090
+TNS   : -1.260
+
+Type  : Fast Model Minimum Pulse Width 'ControlUnit:ctrlUnit|ULAControl[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'EthernetMod:PacketGen|current_state.IDLE'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'EthernetMod:PacketGen|current_state.SENDING'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'EthernetMod:PacketGen|dataSend[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'EthernetMod:PacketRcv|buffer[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'EthernetMod:PacketRcv|current_state.IDLE'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

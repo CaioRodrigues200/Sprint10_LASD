@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at EthernetMod.v(32): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at EthernetMod.v(23): object "DATASIZE" differs only in case from object "dataSize" in the same scope
+Warning (10268): Verilog HDL information at frequencyDivider.v(5): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at countM10.v(5): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at Cycle.v(5): always construct contains both blocking and non-blocking assignments

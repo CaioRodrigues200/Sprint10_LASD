@@ -1,0 +1,3 @@
+module countM10 (input clock, output reg number);
+
+endmodule 

@@ -1,0 +1,10 @@
+module adderULA (input sw[17:0], output ledr[17:0]);
+
+always @(*) begin
+	if (SW[17] == 0)
+		assign LEDR[3:0] = SW[3:0] + SW[7:4];
+	else
+		assign LEDR[3:0] = SW[3:0] - SW[7:4];
+end
+
+endmodule

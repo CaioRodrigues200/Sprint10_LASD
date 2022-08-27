@@ -1,0 +1,15 @@
+module frequencyDivider (input clock50M, output reg clock1);
+
+	reg[7:0] count = 7'd0;
+	clock1 = 1;
+
+	always @ (negedge clock50M) begin
+		count = count + 7'd1;
+
+		if(count >= 7'd25000000) begin
+			clock1 = ~clock1;
+			count = 7'd0;
+		end
+	end
+
+endmodule
